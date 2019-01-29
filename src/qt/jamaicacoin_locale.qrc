@@ -1,0 +1,21 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/jamaicacoin_bg.qm</file>
+        <file alias="de">locale/jamaicacoin_de.qm</file>
+        <file alias="en">locale/jamaicacoin_en.qm</file>
+        <file alias="es">locale/jamaicacoin_es.qm</file>
+        <file alias="fi">locale/jamaicacoin_fi.qm</file>
+        <file alias="fr">locale/jamaicacoin_fr.qm</file>
+        <file alias="it">locale/jamaicacoin_it.qm</file>
+        <file alias="ja">locale/jamaicacoin_ja.qm</file>
+        <file alias="nl">locale/jamaicacoin_nl.qm</file>
+        <file alias="pl">locale/jamaicacoin_pl.qm</file>
+        <file alias="pt">locale/jamaicacoin_pt.qm</file>
+        <file alias="ru">locale/jamaicacoin_ru.qm</file>
+        <file alias="sk">locale/jamaicacoin_sk.qm</file>
+        <file alias="sv">locale/jamaicacoin_sv.qm</file>
+        <file alias="vi">locale/jamaicacoin_vi.qm</file>
+        <file alias="zh_CN">locale/jamaicacoin_zh_CN.qm</file>
+        <file alias="zh_TW">locale/jamaicacoin_zh_TW.qm</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,6 @@
+usr/local/bin/jamaicacoin-qt usr/bin
+share/pixmaps/jamaicacoin32.xpm usr/share/pixmaps
+share/pixmaps/jamaicacoin16.xpm usr/share/pixmaps
+share/pixmaps/jamaicacoin128.png usr/share/pixmaps
+debian/jamaicacoin-qt.desktop usr/share/applications
+debian/jamaicacoin-qt.protocol usr/share/kde4/services/

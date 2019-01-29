@@ -1,0 +1,22 @@
+[Unit]
+Description=JamaicaCoin's distributed currency daemon
+After=network.target
+
+[Service]
+User=jamaicacoincore
+Group=jamaicacoincore
+
+Type=forking
+PIDFile=/var/lib/jamaicacoind/jamaicacoind.pid
+ExecStart=/usr/bin/jamaicacoind -daemon -pid=/var/lib/jamaicacoind/jamaicacoind.pid \
+-conf=/etc/jamaicacoincore/jamaicacoin.conf -datadir=/var/lib/jamaicacoind -disablewallet
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

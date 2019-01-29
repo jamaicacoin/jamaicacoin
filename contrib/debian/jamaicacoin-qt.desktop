@@ -1,0 +1,13 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=JamaicaCoin Core
+Comment=JamaicaCoin P2P Cryptocurrency
+Comment[de]=Verbinde mit dem JamaicaCoin peer-to-peer Netzwerk
+Comment[fr]=JamaicaCoin, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=JamaicaCoin, eşten eşe kriptografik sanal para birimi
+Exec=jamaicacoin-qt %u
+Terminal=false
+Type=Application
+Icon=jamaicacoin128
+MimeType=x-scheme-handler/jamaicacoin;
+Categories=Office;Finance;
